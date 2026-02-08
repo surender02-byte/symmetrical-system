@@ -1,4 +1,4 @@
-html, body {
+/* html, body {
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -11,7 +11,7 @@ canvas {
 }
 
 /* 🎶 Tap overlay */
-#startScreen {
+/* #startScreen {
   position: fixed;
   inset: 0;
   background: black;
@@ -22,4 +22,4 @@ canvas {
   font-size: 24px;
   z-index: 10;
   cursor: pointer;
-}
+} */ 

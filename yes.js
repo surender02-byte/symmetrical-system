@@ -18,13 +18,16 @@ const text = new createjs.Text(
   "#ffffff"
 );
 
-text.textAlign = "center";
-text.textBaseline = "middle";
+text.textAlign = "center";      // Horizontal center
+text.textBaseline = "top";      // Align from top
 text.lineWidth = canvas.width * 0.85;
 text.lineHeight = 26;
-text.x = canvas.width / 2;
-text.y = canvas.height / 2;
+
+text.x = canvas.width / 2;      // Center horizontally
+text.y = 20;                    // Small margin from top (change if needed)
+
 stage.addChild(text);
+stage.update();
 
 
 
@@ -51,7 +54,7 @@ createjs.Ticker.framerate = 60;
 createjs.Ticker.on("tick", () => {
   // Keep text centered after resize
   text.x = canvas.width / 2;
-  text.y = canvas.height / 2;
+  text.y = text.y = 250; 
 
   hearts.forEach(h => {
     h.y -= h.speedY;
