@@ -13,10 +13,11 @@ window.addEventListener("resize", resize);
 
 // Text (center message)
 const text = new createjs.Text(
-  " hi i'm surA the longer I'm with you\nthe more I love you 💕",
-  "bold 26px Arial",
+  "Hi, naan un SurA 💕 Unna first time paatha moment lendhu en life romba azhaga maariduchu ✨ Un sirippu 😊 en darkest days la kooda light ah irukum, un voice 🎶 en mind ku peace kudukum 🌸 Un message varum pothu en heart speed ah adikum 💓😜 Na perfect illa ❌ konjam stubborn, konjam overthinking irupen 🙈 aana un kitta dhaan real ah irupen 🤝❤️ Un happiness dhaan en priority 💖 Un kanneer varama paathukradhu dhaan en responsibility 🥺 The longer I'm with you, the deeper I fall for you 💘 Daily daily un mela love increase aagite iruku 📈💕 Nee en strength 💪 nee en comfort 🏡 nee en motivation 🔥 nee en future dreams la main character 🎬❤️ Life la evlo kashtam vandhaalum, evlo problem vandhaalum, un kai vida maaten 🤞💍 Un kooda sirikka 😄 un kooda sandai pottu settle aaga 😜 un kooda valka full ah share panna dhaan en aasai ♾️✨ Innum pala varusham, pala memories, pala cute fights 😆💕 ellam un kooda dhaan venum… So sollu ma… will you stay with me forever? 🥺❤️💍♾️✨",
+  "bold 22px Arial",
   "#ffffff"
 );
+
 text.textAlign = "center";
 text.textBaseline = "middle";
 text.x = canvas.width / 2;
