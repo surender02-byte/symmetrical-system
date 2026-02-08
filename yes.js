@@ -13,18 +13,19 @@ window.addEventListener("resize", resize);
 
 // Text (center message)
 const text = new createjs.Text(
-  "Hi, naan un SurA 💕 Unna first time paatha moment lendhu en life romba azhaga maariduchu ✨ Un sirippu 😊 en darkest days la kooda light ah irukum, un voice 🎶 en mind ku peace kudukum 🌸 Un message varum pothu en heart speed ah adikum 💓😜 Na perfect illa ❌ aana un kitta dhaan real ah irupen 🤝❤️ The longer I'm with you, the deeper I fall for you 💘 Daily un mela love increase aagite iruku 💕 Nee en strength 💪 nee en comfort 🏡 nee en future ❤️ Life la evlo kashtam vandhaalum un kai vida maaten 💍♾️ So will you stay with me forever? 🥺❤️",
-  "bold 22px Arial",
+  "Hi, naan un SurA 💕 Un kitta vandha odane enakku romba heat aagidum 🙈❤️‍🔥 Enna control panna mudiyadhu 😜 konjam childish ah behave panniduven 🤭 Aana adhu ellam un mela iruka love nala dhaan 💖 Nee en pakkathula ninna odane world ah marandhuduven 🌍✨ Apo apo naan ketpen… 'nee yen epadi iruka?' nu 🥺💘 because un azhagu romba over ah irukum 😍🔥 Un sirippu 😊 en heart ah melt pannidum, un eyes 👀 enna paatha udane freeze aagidum 💓 Na perfect illa ❌ aana un kitta dhaan 100% real ah irupen 🤝❤️ Daily un mela love increase aagite iruku 📈💕 Un kooda sirikka 😄 un kooda fight panni settle aaga 😜 un kooda life full ah spend panna dhaan en aasai 💍♾️ So please… intha love story ah lifetime complete pannalama? Will you stay with me forever? 🥺❤️✨",
+  "bold 20px Arial",
   "#ffffff"
 );
 
 text.textAlign = "center";
 text.textBaseline = "middle";
-text.lineWidth = canvas.width * 0.8; // 🔥 This wraps text properly
-text.lineHeight = 30; // spacing between lines
+text.lineWidth = canvas.width * 0.85;
+text.lineHeight = 28;
 text.x = canvas.width / 2;
 text.y = canvas.height / 2;
 stage.addChild(text);
+
 
 // Hearts creator
 function createHeart() {
