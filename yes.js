@@ -13,7 +13,7 @@ window.addEventListener("resize", resize);
 
 // Text (center message)
 const text = new createjs.Text(
-  "the longer I'm with you\nthe more I love you 💕",
+  " hi i'm surA the longer I'm with you\nthe more I love you 💕",
   "bold 26px Arial",
   "#ffffff"
 );
