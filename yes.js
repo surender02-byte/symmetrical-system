@@ -13,21 +13,22 @@ window.addEventListener("resize", resize);
 
 // Text (center message)
 const text = new createjs.Text(
-  "Hi, naan un SurA 💕 Un kitta vandha odane enakku romba heat aagidum 🙈❤️‍🔥 control panna mudiyadhu 😜 konjam childish ah behave panniduven 🤭 aana adhu ellam un mela iruka love nala dhaan 💖 Nee pakkathula ninna odane world ah marandhuduven 🌍✨ Apo apo naan ketpen 'nee yen epadi iruka?' nu 🥺💘 because un azhagu romba over ah irukum 😍🔥 Un sirippu 😊 en heart ah melt pannidum, un eyes 👀 enna paatha udane freeze aagidum 💓 Daily un kooda walk poga romba pidikum 🚶‍♂️🚶‍♀️🌅 un hand ah pudichittu nadakara andha small moments dhaan enaku biggest happiness 🤝❤️ Road la simple ah pesikittu, sirichikittu pogara time ellam en life la most precious memories 💞 Na perfect illa ❌ aana un kitta dhaan full real ah irupen 🤝❤️ Un happiness dhaan en priority 💖 Un kanneer varama paathukradhu dhaan en promise 🥺💍 Life la evlo kashtam vandhaalum un kai vida maaten 🤞♾️ Un kooda sirikka 😄 un kooda sandai pottu settle aaga 😜 un kooda old age varaikum nadakanum 🏡❤️ So please… intha love story ah lifetime complete pannalama? Will you stay with me forever? 🥺❤️💍♾️✨",
+  "CLICK ME, hey subu unkitta romba nala sollanum irunthuchi kellu 💕 Un kitta vandha odane en heart beat speed aagum ❤️‍🔥, en mind blank aagum 😜, konjam childish ah behave panniduven 🤭 aana adhu ellam un mela iruka love nala dhaan 💖 Nee pakkathula ninna odane world slow aagum 🌍✨, time stop aana madhiri feel aagum ⏳💘 Apo apo naan ketpen 'nee yen epadi iruka?' nu 🥺 because un azhagu paatha udane en soul kooda smile pannum 😍🔥 Un sirippu 😊 en stress ah dissolve pannum, un eyes 👀 enna paatha udane en heart melt aagum 💓 Daily un kooda hand pudichittu walk poga 🚶‍♂️🚶‍♀️🌅, simple ah pesikittu sirichikittu nadakara andha moments dhaan enaku real happiness 🤝❤️ Road la small talks 💬, random laughs 😄, silent looks 👀 ellam en life la most precious memories 💞 Na perfect illa ❌ aana un kitta dhaan 100% real ah irupen 🤝❤️ Un happiness dhaan en priority 💖, un tears varama paathukradhu dhaan en promise 🥺💍 Life la evlo kashtam vandhaalum, evlo storms vandhaalum ⛈️ un kai vida maaten 🤞♾️ Un kooda sirikka 😄, un kooda sandai pottu settle aaga 😜, un kooda old age varaikum nadakanum 🏡❤️ So sollu ma… intha rhythm ah lifetime continue pannalama? Will you stay with me forever? Subuuuuuuuu 🥺❤️💍♾️✨",
   "bold 18px Arial",
   "#ffffff"
 );
 
-text.textAlign = "center";      // Horizontal center
-text.textBaseline = "top";      // Align from top
+text.textAlign = "center";
+text.textBaseline = "top";
 text.lineWidth = canvas.width * 0.85;
 text.lineHeight = 26;
 
-text.x = canvas.width / 2;      // Center horizontally
-text.y = 20;                    // Small margin from top (change if needed)
+text.x = canvas.width / 2;
+text.y = 20;
 
 stage.addChild(text);
 stage.update();
+
 
 
 
