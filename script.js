@@ -1,6 +1,6 @@
 const noBtn = document.getElementById("noBtn");
 const yesBtn = document.getElementById("yesBtn");
-const box = document.querySelector(".box");
+const card = document.querySelector(".card");
 
 const texts = [
   "No 😜",
@@ -13,12 +13,12 @@ const texts = [
 
 let index = 0;
 
-// NO button runs + text change only
+// NO button runs + text change
 noBtn.addEventListener("mouseover", () => {
-  const boxRect = box.getBoundingClientRect();
+  const cardRect = card.getBoundingClientRect();
 
-  const maxX = boxRect.width - noBtn.offsetWidth;
-  const maxY = boxRect.height - noBtn.offsetHeight;
+  const maxX = cardRect.width - noBtn.offsetWidth - 20;
+  const maxY = cardRect.height - noBtn.offsetHeight - 20;
 
   const randomX = Math.floor(Math.random() * maxX);
   const randomY = Math.floor(Math.random() * maxY);
@@ -26,7 +26,6 @@ noBtn.addEventListener("mouseover", () => {
   noBtn.style.left = randomX + "px";
   noBtn.style.top = randomY + "px";
 
-  // ONLY text changes
   noBtn.textContent = texts[index % texts.length];
   index++;
 });
@@ -34,5 +33,4 @@ noBtn.addEventListener("mouseover", () => {
 // YES button
 yesBtn.addEventListener("click", () => {
   window.location.href = "yes.html";
-   startScreen.style.display = "none";
 });
