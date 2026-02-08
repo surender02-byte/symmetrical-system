@@ -27,6 +27,7 @@ text.y = canvas.height / 2;
 stage.addChild(text);
 
 
+
 // Hearts creator
 function createHeart() {
   const heart = new createjs.Text("❤", "28px Arial", "#ff4d88");
