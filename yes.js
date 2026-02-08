@@ -13,15 +13,15 @@ window.addEventListener("resize", resize);
 
 // Text (center message)
 const text = new createjs.Text(
-  "Hi, naan un SurA 💕 Un kitta vandha odane enakku romba heat aagidum 🙈❤️‍🔥 Enna control panna mudiyadhu 😜 konjam childish ah behave panniduven 🤭 Aana adhu ellam un mela iruka love nala dhaan 💖 Nee en pakkathula ninna odane world ah marandhuduven 🌍✨ Apo apo naan ketpen… 'nee yen epadi iruka?' nu 🥺💘 because un azhagu romba over ah irukum 😍🔥 Un sirippu 😊 en heart ah melt pannidum, un eyes 👀 enna paatha udane freeze aagidum 💓 Na perfect illa ❌ aana un kitta dhaan 100% real ah irupen 🤝❤️ Daily un mela love increase aagite iruku 📈💕 Un kooda sirikka 😄 un kooda fight panni settle aaga 😜 un kooda life full ah spend panna dhaan en aasai 💍♾️ So please… intha love story ah lifetime complete pannalama? Will you stay with me forever? 🥺❤️✨",
-  "bold 20px Arial",
+  "Hi, naan un SurA 💕 Un kitta vandha odane enakku romba heat aagidum 🙈❤️‍🔥 control panna mudiyadhu 😜 konjam childish ah behave panniduven 🤭 aana adhu ellam un mela iruka love nala dhaan 💖 Nee pakkathula ninna odane world ah marandhuduven 🌍✨ Apo apo naan ketpen 'nee yen epadi iruka?' nu 🥺💘 because un azhagu romba over ah irukum 😍🔥 Un sirippu 😊 en heart ah melt pannidum, un eyes 👀 enna paatha udane freeze aagidum 💓 Daily un kooda walk poga romba pidikum 🚶‍♂️🚶‍♀️🌅 un hand ah pudichittu nadakara andha small moments dhaan enaku biggest happiness 🤝❤️ Road la simple ah pesikittu, sirichikittu pogara time ellam en life la most precious memories 💞 Na perfect illa ❌ aana un kitta dhaan full real ah irupen 🤝❤️ Un happiness dhaan en priority 💖 Un kanneer varama paathukradhu dhaan en promise 🥺💍 Life la evlo kashtam vandhaalum un kai vida maaten 🤞♾️ Un kooda sirikka 😄 un kooda sandai pottu settle aaga 😜 un kooda old age varaikum nadakanum 🏡❤️ So please… intha love story ah lifetime complete pannalama? Will you stay with me forever? 🥺❤️💍♾️✨",
+  "bold 18px Arial",
   "#ffffff"
 );
 
 text.textAlign = "center";
 text.textBaseline = "middle";
 text.lineWidth = canvas.width * 0.85;
-text.lineHeight = 28;
+text.lineHeight = 26;
 text.x = canvas.width / 2;
 text.y = canvas.height / 2;
 stage.addChild(text);
